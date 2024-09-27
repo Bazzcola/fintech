@@ -12,6 +12,8 @@ const data = [
 ];
 
 export default function StraightAnglePieChart() {
+  // https://www.creative-tim.com/templates/react-free
+  // https://www.creative-tim.com/product/light-bootstrap-dashboard-react#
   // https://mui.com/x/react-charts/pie-demo/
   // https://mui.com/x/react-charts/pie/
   return (
