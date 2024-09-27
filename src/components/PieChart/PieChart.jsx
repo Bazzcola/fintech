@@ -12,11 +12,16 @@ const data = [
 ];
 
 export default function StraightAnglePieChart() {
+  // https://mui.com/x/react-charts/pie-demo/
+  // https://mui.com/x/react-charts/pie/
   return (
     <div className="chart">
       <PieChart
         series={[
           {
+            arcLabel: (item) => `${item.value}%`,
+            arcLabelMinAngle: 15, // если вмешается в уго показывает
+            arcLabelRadius: "60%", // положение
             startAngle: -90,
             endAngle: 90,
             data,
@@ -37,6 +42,7 @@ export default function StraightAnglePieChart() {
       <PieChart
         series={[
           {
+            // arcLabel: (item) => `${item.value}%`,
             data: desktopOS,
             highlightScope: { fade: "global", highlight: "item" },
             faded: { innerRadius: 30, additionalRadius: -30, color: "gray" },
