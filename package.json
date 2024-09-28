@@ -14,7 +14,8 @@
     "@mui/x-charts": "^7.18.0",
     "axios": "^1.7.7",
     "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "sass": "^1.79.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
